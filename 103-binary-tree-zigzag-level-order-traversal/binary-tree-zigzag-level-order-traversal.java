@@ -16,7 +16,7 @@
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
           Queue<TreeNode> q = new LinkedList<TreeNode>();
-        List<List<Integer>> traverse = new LinkedList<List<Integer>>();
+        List<List<Integer>> traverse = new LinkedList<>();
         if(root==null) return traverse;
         q.offer(root);
         boolean flag = true;
